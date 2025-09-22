@@ -4,6 +4,7 @@ This project provides a Python-based interface to query the OpenEMS Edge
  simulation server hosted locally, retrieve simulation results, and visualize them using graphs.
 
 Folder Structure
+
 project-root/
 ├── data/
 │   ├── simulation_input.csv         # Input data: consumption & generation (W)
@@ -46,7 +47,7 @@ Output Files
 
 ./data/simulation_response_baseline.json: Baseline response with no control logic applied. (Note: specific to the current project)
 
-📝 Notes
+Notes
 
 Ensure the OpenEMS server is fully initialized before running the script to avoid WebSocket connection errors.
 
